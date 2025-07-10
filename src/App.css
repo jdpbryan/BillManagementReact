@@ -27,6 +27,12 @@
 .App-link {
   color: #61dafb;
 }
+.Billsummary{
+  margin-Top: 16px; 
+  margin-Left: 16px; 
+  width: 1450px; 
+  height: 70%;
+}
 
 @keyframes App-logo-spin {
   from {

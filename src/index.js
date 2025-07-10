@@ -3,8 +3,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AllCommunityModule, ModuleRegistry } from 'ag-grid-community'
+import { RowGroupingModule } from "ag-grid-enterprise";
 
-ModuleRegistry.registerModules([AllCommunityModule]);
+ModuleRegistry.registerModules([AllCommunityModule,
+  RowGroupingModule
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

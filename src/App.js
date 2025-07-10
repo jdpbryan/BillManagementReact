@@ -1,5 +1,6 @@
 import QueryPanel from './components/Query/QueryPanel';
 import Header from './components/Header';
+import BillSummary from './components/BillSummary';
 import './App.css';
 import { Button, Drawer, Space } from 'antd';
 import React, { useState } from 'react';
@@ -36,7 +37,9 @@ function App() {
       >
         <QueryPanel onQuery={onQuery}></QueryPanel>
       </Drawer>
-      
+      <div className="Billsummary">
+        <BillSummary></BillSummary>
+      </div>
     </div>
   );
 }
